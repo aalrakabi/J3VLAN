@@ -8,12 +8,17 @@ rel="stylesheet">
 	</head>
 
 	<body>
-		<header>
-			<h1><a href="{% url 'home' %}">Shopping List</a></h1>
-		</header>
-	<div>
-	{% block content %}
-	{% endblock content %}
-	</div>
+		<div>
+			<header>
+				<div class="nav-left">
+					<h1><a href="{% url 'home' %}">Shopping List</a></h1>
+				</div>
+				<div class="nav-right">
+					<a href="{% url 'post_new' %}">+ Shopping List Post</a>
+				</div>
+			</header>
+			{% block content %}
+			{% endblock content %}
+		</div>
 	</body>
 </html>
