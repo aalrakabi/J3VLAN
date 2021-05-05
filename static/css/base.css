@@ -3,6 +3,7 @@ body {
 	font-size: 18px;
 	margin:0;
     padding:0;
+	background-color: ghostwhite;
 }
 
 header {
@@ -62,5 +63,37 @@ header h1 a {
 }
 
 .post-edit-delete {
-	text-indent: 15px;
+	text-indent: 300px;
+}
+
+.post-entry-view {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.post-entry-view h2 {
+	text-decoration: underline solid black;
+}
+
+.home-button {
+	display: flex;
+	text-indent: 40px;
+	margin-bottom: 2em;
+	font-weight: bolder;
+}
+
+.edit {
+	text-align: left;
+	text-indent: 50px;
+}
+
+.delete {
+	text-align: left;
+	text-indent: 50px;
+}
+
+.new {
+	text-align: left;
+	text-indent: 50px;
 }

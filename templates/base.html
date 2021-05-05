@@ -17,6 +17,9 @@ rel="stylesheet">
 					<h4><a href="{% url 'post_new' %}">+ Add New List </a></h4>
 				</div>
 			</header>
+			<div class="home-button">
+				<a href="{% url 'home'%}"> Home </a>
+			</div> 
 			{% block content %}
 			{% endblock content %}
 		</div>

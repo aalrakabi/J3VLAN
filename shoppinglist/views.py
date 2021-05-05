@@ -4,6 +4,9 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from .models import Post
 
+# def home(request):
+# 	return render(request, )
+
 class ShoppinglistListView(ListView):
 	model = Post
 	template_name = 'home.html'
