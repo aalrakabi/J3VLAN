@@ -1,21 +1,30 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
+	margin:0;
+    padding:0;
 }
 
 header {
-	border-bottom: 1px solid #999;
+	border-bottom: 10px solid #999;
 	margin-bottom: 2rem;
 	display: flex;
+	background-color: lightblue; 
+	
 }
 
 header h1 a {
-	color: green;
+	font-family: 'Copperplate', fantasy;
+	color: darkgreen;
+	word-spacing: 0.1em;
 	text-decoration: none;
+	margin:0;
+    padding:0;
 }	
 
 .nav-left {
-	margin-right: auto;
+	margin-right: 60%;
+	text-indent: 60px;
 }
 
 .nav-right {
@@ -25,6 +34,8 @@ header h1 a {
 
 .post-entry {
 	margin-bottom: 2rem;
+	text-indent: 35px;
+
 }
 
 .post-entry h2 {
@@ -37,11 +48,19 @@ header h1 a {
 	text-decoration: none;
 }
 
+.post-entry h2 span:hover{
+	background: rgb(212, 185, 185)
+}
+
 .post-entry p {
 	margin: 0;
 	font-weight: 400;
 }
 
 .post-entry h2 a:hover {
-	color: red;
+	color: rgb(158, 153, 153);
+}
+
+.post-edit-delete {
+	text-indent: 15px;
 }
